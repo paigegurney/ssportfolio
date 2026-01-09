@@ -63,6 +63,15 @@
     gap: 40px;
 }
 
+#threecolumn .squares > .square #text150 {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #threecolumn .square {
     flex: 1;
     max-width: 600px; /* keeps them from getting too wide */
@@ -124,3 +133,4 @@
     text-decoration: underline;
 
 }
+
