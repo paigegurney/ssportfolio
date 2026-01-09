@@ -1,0 +1,21 @@
+/* helpers */
+.spacer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+  
+.dark-bg {
+    background-color: #11122b;
+    color: #cbcbcb;
+}
+  
+.phone a {
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+  
+.phone a:hover {
+    color: #cea135;
+    text-decoration: none;
+}

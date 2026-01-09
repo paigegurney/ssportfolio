@@ -1,0 +1,74 @@
+.achievements > .achievements-header {
+    text-align: center;
+    color: #b75c94;
+    font-size: 1.75em;
+}
+
+.achievements > .achievements-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px 32px; /* row gap | column gap */
+    margin: 0px 50px 50px 50px;
+}
+
+@media (max-width: 900px) {
+    .achievements-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .achievements-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+.achievements > .achievements-list > .list-link {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    background-color: rgba(183, 92, 148, 0.25);
+    border-radius: 10px;
+    align-items: center;
+    transition: box-shadow 1s;
+    text-decoration: none;
+}
+
+.achievements >.achievements-list > .list-link:hover {
+    box-shadow: 6px 5px 13px -1px rgba(0,0,0,0.6);
+}
+
+.achievements > .achievements-list > .list-link > .number-circle {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    background-color: #b75c94;
+    border-radius: 50%;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    margin-left: 15px;
+    font-family: "Trochut", sans-serif;
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.achievements > .achievements-list > .list-link > .specific {
+    margin-right: 15px;
+    color: #11122b;
+    font-size: 1.1em;
+}
+
+.essay {
+    font-size: 1.4em;
+    /* background-color: rgba(203, 203, 203, 0.5); */
+    background-color: #11122b;
+    /* border-top: 5px solid #b75c94; */
+    color: #cbcbcb;
+    padding: 50px 100px 50px 100px;
+    text-indent: 50px;
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.50);
+}

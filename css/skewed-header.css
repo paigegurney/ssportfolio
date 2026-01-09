@@ -1,0 +1,88 @@
+/* Skewed Header */
+.skewed-header {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+  
+#category {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/codegoingtotheright.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transform: skewY(-6deg);
+  transform-origin: top left;
+  filter: brightness(50%);
+}
+
+#leadership {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/shetech.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transform: skewY(6deg);
+  transform-origin: top right;
+  filter: brightness(50%);
+}
+  
+#citizenship {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/wolfcropped.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transform: skewY(-6deg);
+  transform-origin: top left;
+  filter: brightness(50%);
+}
+
+.skewed-header > .skewed-header-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+  
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
+  background-color: #b75c94;
+  color: #11122b;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 175px;
+  padding: 10px;
+  text-align: center;
+}
+  
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper {
+  display: flex;
+}
+  
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper > .nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 225px;
+}

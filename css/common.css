@@ -1,0 +1,35 @@
+/* Common Styles */
+body {
+    margin: 0px;
+    font-family: 'Unna', serif;
+    color: #11122b;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Unna', serif;
+}
+
+/* Helpers */
+.spacer60 {
+    height: 60px;
+    width: 100%
+}
+
+i {
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    color: #11122b;
+}

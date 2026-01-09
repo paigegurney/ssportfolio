@@ -1,0 +1,125 @@
+#nbc h5 a {
+    color: #c93c83;
+    text-decoration: none;
+}
+
+#nbc h5 a:hover {
+    text-decoration: underline;
+}
+
+#handg h5 a {
+    color: #c93c83;
+    text-decoration: underline;
+}
+
+#handg h5 a:hover {
+    text-decoration: underline;
+}
+
+#nbccontent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    padding: 40px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+#nbccontent > .square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nbccontent > .square > .img-wrapper {
+    padding-top: 20px;
+    width: 100%;
+    max-width: 750px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#twocolumns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#twocolumns > .square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#threecolumn .squares {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+}
+
+#threecolumn .square {
+    flex: 1;
+    max-width: 600px; /* keeps them from getting too wide */
+    height: 100%;
+    justify-content: center;
+}
+
+#threecolumn .img-wrapper {
+    height: 500px;
+}
+
+#threecolumn .img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#no-border {
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 5px solid #11122b;
+    color: #c93c83;
+    font-size: 1.5em;
+}
+
+.article-list li {
+    text-align: left;
+}
+
+
+.articles > .article-list a {
+    color: #11122b;
+    text-decoration: none;
+}
+
+.articles > .article-list a:hover {
+    color: #c93c83;
+    text-decoration: underline;
+}
+
+#zootah {
+    padding-bottom: 40px;
+}
+
+#zootah a {
+    color: #11122b;
+}
+
+#zootah a:hover {
+    color: #c93c83;
+    text-decoration: underline;
+}

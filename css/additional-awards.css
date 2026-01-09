@@ -1,0 +1,34 @@
+.slf {
+    width: 1000px;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.slf iframe {
+    width: 100%;
+    height: 600px;
+}
+
+.slf h1 a {
+    color: #11122b;
+    text-decoration: none;
+}
+
+.slf h1 a:hover {
+    color: #c93c83;
+    text-decoration: underline;
+}
+
+.slf img {
+    width: 1000px;
+    border: #c93c83 solid 2px;
+    border-radius: 20px;
+}
+
+.NHS {
+    text-align: center;
+}

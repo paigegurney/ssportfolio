@@ -1,0 +1,127 @@
+/*Square grid styles*/
+.squares-title {
+    text-align: center;
+    color: #c93c83;
+    font-size: 1.5em;
+    padding-top: 15px;
+}
+
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 5px solid #11122b;
+}
+
+.squares-wrapper > .squares {
+    width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 0px;
+}
+
+.squares-wrapper > .squares > .square {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0px;
+}
+
+.square .img-wrapper {
+    height: 275px;
+    overflow: hidden;
+}
+
+.square .img-wrapper img {
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.square > .square-text-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.square > .square-text-wrapper h1 {
+    color: #11122b;
+}
+
+.square > .square-text-wrapper ol {
+    text-align: left;
+}
+
+@media (max-width: 900px) {
+    .squares-wrapper > .squares {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .squares-wrapper > .squares {
+        grid-template-columns: 1fr;
+    }
+}
+
+#internshipcontent {
+    background-color: rgba(183, 92, 148, 0.25);
+}
+
+#ctecertificate .squares {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+}
+
+#ctecertificate .square {
+    flex: 1;
+    max-width: 600px; /* keeps them from getting too wide */
+    height: 100%;
+    justify-content: center;
+}
+
+#ctecertificate .img-wrapper {
+    height: 500px;
+}
+
+#ctecertificate .img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#onecolumn .squares {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#onecolumn .square {
+    flex: 1;
+    max-width: 600px; /* keeps them from getting too wide */
+    height: 100%;
+    justify-content: center;
+}
+
+#onecolumn .img-wrapper {
+    height: 500px;
+}
+
+#onecolumn .img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.pink {
+    background-color: rgba(183, 92, 148, 0.25);
+}

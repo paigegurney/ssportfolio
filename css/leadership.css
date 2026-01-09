@@ -1,0 +1,87 @@
+.squares-wrapper > .squares > .square > .image-wrapper iframe {
+    width: fill;
+    height: fill;
+    border: none;
+}
+
+.squares-wrapper > .squares > .square > .square-text-wrapper > #cvfm-title:hover {
+    color: #c93c83;
+    text-decoration: underline;
+}
+
+.squares-wrapper > .squares > .square > .square-text-wrapper h1 a {
+    color: #11122b;
+}
+
+.squares-wrapper > .squares > .square > .square-text-wrapper h1 a:hover {
+    color: #c93c83;
+    text-decoration: underline;
+}
+
+.squares-wrapper > .squares > .square > .square-text-wrapper ul {
+    text-align: left;
+}
+
+#threecolumns .squares {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+}
+
+#threecolumns .square {
+    flex: 1;
+    max-width: 600px; /* keeps them from getting too wide */
+    height: 100%;
+    justify-content: center;
+}
+
+#threecolumns .img-wrapper {
+    height: 500px;
+}
+
+#threecolumns .img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#twoxtwo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    padding: 40px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+#twoxtwo .square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#twoxtwo .square > .img-wrapper {
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#twoxtwo .square > .img-wrapper iframe {
+    width: inherit;
+    height: inherit;
+}
+
+.square-links {
+    text-decoration: none;
+    color: #11122b;
+}
+
+.problemtext {
+    padding-left: 20px;
+    padding-right: 20px;
+}

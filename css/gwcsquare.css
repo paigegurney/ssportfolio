@@ -1,0 +1,41 @@
+/* Outer wrapper */
+#gwccontent {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Container holding the content */
+#gwccontent .squares {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Stack image + text vertically */
+#gwccontent .square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: none;
+}
+
+/* Image wrapper */
+#gwccontent .gwcimg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Image sizing */
+#gwccontent .gwcimg img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Text spacing */
+#gwccontent .square-text-wrapper {
+    margin-top: 20px;
+}

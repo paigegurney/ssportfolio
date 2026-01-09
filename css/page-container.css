@@ -1,0 +1,46 @@
+/*Page container styles */
+.page-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px; /* space for the line */
+}
+
+.page-container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;              /* ⬅️ forces it to the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px;
+    height: 2px;
+    background-color: #11122b;
+}
+
+
+
+.page-container > .content-wrapper {
+    width: 1000px;
+}
+
+.page-container > .content-wrapper > #pic {
+    width: 350px;
+    margin: 23px 40px 10px 0;
+    float: left;
+    border: 2px solid #c93c83;
+    border-radius: 20px;
+}
+.page-container > .content-wrapper > #pic-right {
+    width: 350px;
+    margin: 23px 0px 10px 40px;
+    float: right;
+    border: 2px solid #c93c83;
+    border-radius: 20px;
+}
+
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-indent: 50px;
+}
