@@ -60,7 +60,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
-    gap: 40px;
 }
 
 #threecolumn .squares > .square #text150 {
@@ -133,4 +132,5 @@
     text-decoration: underline;
 
 }
+
 
