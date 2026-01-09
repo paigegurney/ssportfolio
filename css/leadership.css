@@ -47,6 +47,15 @@
     object-fit: cover;
 }
 
+#poster {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#c93c83
+}
+
 #twoxtwo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -84,4 +93,5 @@
 .problemtext {
     padding-left: 20px;
     padding-right: 20px;
+
 }
